@@ -31,7 +31,7 @@
             this.lotteryLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelLabel = new System.Windows.Forms.Label();
-            this.winningNumberLabel = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.generateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -71,16 +71,16 @@
             this.labelLabel.TabIndex = 2;
             this.labelLabel.Text = "Your Winning Numbers:";
             // 
-            // winningNumberLabel
+            // outputLabel
             // 
-            this.winningNumberLabel.BackColor = System.Drawing.Color.White;
-            this.winningNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.winningNumberLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.winningNumberLabel.Location = new System.Drawing.Point(223, 343);
-            this.winningNumberLabel.Name = "winningNumberLabel";
-            this.winningNumberLabel.Size = new System.Drawing.Size(213, 24);
-            this.winningNumberLabel.TabIndex = 3;
-            this.winningNumberLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.outputLabel.BackColor = System.Drawing.Color.White;
+            this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.outputLabel.Location = new System.Drawing.Point(223, 343);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(213, 24);
+            this.outputLabel.TabIndex = 3;
+            this.outputLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // generateButton
             // 
@@ -102,7 +102,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(670, 450);
             this.Controls.Add(this.generateButton);
-            this.Controls.Add(this.winningNumberLabel);
+            this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.labelLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lotteryLabel);
@@ -118,7 +118,7 @@
         private System.Windows.Forms.Label lotteryLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelLabel;
-        private System.Windows.Forms.Label winningNumberLabel;
+        private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.Button generateButton;
     }
 }
